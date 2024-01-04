@@ -1,0 +1,152 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #333;
+}
+
+header {
+  background-color: #007bff;
+  padding: 1rem;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-bar ul {
+  list-style: none;
+  padding: 0rem;
+  margin: 0rem;
+  display: flex;
+}
+
+.social-bar ul li {
+  margin-right: 30px;
+}
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 7rem;
+  
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+.herosection {
+  width: 100%;
+}
+
+div [src] {
+  height: inherit;
+  width: 100%;
+}
+
+.polaroid {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding-top: 150px; 
+}
+
+.image-container {
+  flex: 0 0 20%; 
+  background: white;
+  width: 220px;
+  height: 400px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  padding-left: 10%;
+}
+
+.image-container .container {
+  text-align: center;
+  padding: 10px;  
+}
+
+.image-container p {
+  margin: 0;  
+  padding: auto;  
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.polaroid .image-container a {
+  text-decoration: none; 
+  color: #333; 
+  display: block; 
+  transition: color 0.3s ease; 
+}
+
+.polaroid .image-container a:hover {
+  color: #007bff; 
+}
+
+.polaroid .image-container a:visited {
+  color: #663399; 
+}
+
+.main img{
+  width: 45%;
+  height: 50%;
+  padding-left: 20%;
+}
+
+.main svg{
+  width: 1%;
+  height: 5%;
+  padding-left: 22%;
+  padding-top: 2%;
+}
+
+.readmore{
+  display: flex;
+  justify-content: space-around;
+}
+
+.images{
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+
+.images img{
+  width: 10%;
+}
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
